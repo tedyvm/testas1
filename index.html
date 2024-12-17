@@ -3,12 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Clock Example</title>
+    <style>
+        #clock {
+            font-size: 24px;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-    <h1>Paprastas tekstas</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit a distinctio perferendis vitae in quas, quod aperiam nulla amet, repudiandae voluptas doloremque et voluptatem harum enim laudantium culpa tenetur. Repudiandae.</p>
-    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia deserunt harum maxime nihil natus molestias.</P>
+    <!-- existing content -->
     <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, error?</P>
     
     <h2>Formatuotas tekstas</h2>
@@ -34,118 +38,30 @@
         <img src="photo/pirmas.jpeg" alt="pirmas paveiksliukas" width="250"><br>
     </a>
 
+    <!-- Clock Section -->
+    <h2>Laikrodis</h2>
+    <div id="clock"></div>
 
-    <h5>Lentelės</h5>
-
-    <table border="2">
-        <tr>
-            <th>Vardas</th>
-            <th>Pavarde</th>
-            <th>Gimimo metai</th>
-            <th>Menuo</th>
-            <th>diena</th>
-        </tr>
-        <tr>
-            <td>Jonas</td>
-            <td>Jonauskas</td>
-            <td>1999</td>
-            <td>08</td>
-            <td>12</td>
-        </tr>
-        <tr>
-            <td>Petras</td>
-            <td>Petravicius</td>
-            <td>1977</td>
-            <td>09</td>
-            <td>13</td>
-        </tr>
-        <tr>
-            <td>Antanas</td>
-            <td>Antanavicius</td>
-            <td>1999</td>
-            <td>12</td>
-            <td>21</td>
-        </tr>
-    </table>
-    <br>
-
-    <table border="4">
-        <tr>
-            <th>Modelis</th>
-            <th>Metai</th>
-            
-        </tr>
-        <tr>
-            <td>VW</td>
-            <td>1987</td>
-            
-        </tr>
-        <tr>
-            <td>Audi</td>
-            <td>2009</td>
-            
-        </tr>
-        <tr>
-            <td>Ford</td>
-            <td>2012</td>
-            
-        </tr>
-        <tr>
-            <td>BMW</td>
-            <td>1999</td>
-            
-        </tr>
-    </table>
-    <br>
-
-    <table border="2">
-        <tr>
-            <td rowspan="2">1x1</td>
-            <td colspan="2">1x2</td>
-        </tr>
-        <tr>
-            <td>2x2</td>
-            <td>2x3</td>
-        </tr>
-    </table>
-    <br>
-
-    <table border="1">
-    <tr>
-        <th colspan="2">Automobilis</th>
-        <th colspan="3">Duomenys</th>
-    </tr>
-    <tr>
-        <th>Marke</th>
-        <th>Modelis</th>
-        <th>Rida</th>
-        <th>Spalva</th>
-        <th>Metai</th>
-    </tr>
-    <tr>
-        <td>VW</td>
-        <td>Golf</td>
-        <td>100km</td>
-        <td>raudona</td>
-        <td>2010</td>
-    </tr>
-    <tr>
-        <td>Ford</td>
-        <td>Ranger</td>
-        <td>200km</td>
-        <td>pilka</td>
-        <td>2024</td>
-    </tr>
-    <tr>
-        <td>Audi</td>
-        <td>A4</td>
-        <td>300km</td>
-        <td>juoda</td>
-        <td>2020</td>
-    </tr>
-
-    </table>
-
-    <h6>Sąrašai</h6>
+    <script>
+        function updateClock() {
+            const now = new Date();
+            const clockDiv = document.getElementById('clock');
+            clockDiv.innerHTML = now.toLocaleTimeString();
+            }
+        setInterval(updateClock, 1000);
+        updateClock();// initial call to display clock immediately
+    </script>
+    <style>
+        #clock {
+          font-size: 32px;
+          color: #33;
+          background-color: #f4f0f0;
+          padding: 10px;
+          border-radius: 5px;
+          text-align: center;
+          width: 150px;
+          margin: 20px auto;
+        }
+      </style>
 </body>
 </html>
