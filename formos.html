@@ -6,22 +6,115 @@
     <title>Document</title>
 </head>
 <body>
-    Iveskite prisijungimo duomenis<br>
+    <h6>Formos</h6>
+    Iveskite prisijungimo duomenis<br />
     <form>
-        <input type="text" name="lname" placeholder="Iveskite vartotojo varda"><br><br>
-        <input type="password" name="password" placeholder="Iveskite slaptazodi"><br><br>
-        <button type="submit">Prisijungti</button>
+      <input type="text" placeholder="Iveskite vartotojo varda" /><br /><br />
+      <input type="password" placeholder="Iveskite slaptazodi" /><br /><br />
+      <button type="submit">Prisijungti</button>
     </form>
-    <hr><br>
+    <hr />
+    <br />
     <form>
-        Issiuskite zinute<br><br>
-        <input type="text" name="name" placeholder="Iveskite varda" ><br><br>
-        <input type="email" name="email" placeholder="Iveskite email"><br><br>
-        <input type="text" name="subject" placeholder="Zinutes tema"><br><br>
-        <textarea name="Zinute" cols="20" rows="3" placeholder="Zinute"></textarea><br><br>
-        <button type="submit">Prisijungti</button>
-        <hr> 
+      Issiuskite zinute<br /><br />
+      <input
+        type="text"
+        placeholder="Iveskite varda"
+        style="width: 200px"
+        required
+      /><br /><br />
+      <input
+        type="email"
+        placeholder="Iveskite email"
+        style="width: 200px"
+        required
+      /><br /><br />
+      <input
+        type="text"
+        placeholder="Zinutes tema"
+        style="width: 200px"
+        required
+      /><br /><br />
+      <textarea placeholder="Zinute" style="width: 200px" required></textarea
+      ><br /><br />
+      <button type="submit">Prisijungti</button>
+      <hr />
     </form>
-    
+    <hr />
+    <form>
+      Issiuskite zinute<br /><br />
+      <input
+        type="text"
+        placeholder="Iveskite varda"
+        style="width: 200px"
+        required
+      /><br /><br />
+      <input
+        type="email"
+        placeholder="Iveskite email"
+        style="width: 200px"
+        required
+      /><br /><br />
+      <input
+        type="email"
+        placeholder="Iveskite email dar karta"
+        style="width: 200px"
+        required
+      /><br /><br />
+      <textarea placeholder="Apie save" style="width: 200px" required></textarea
+      ><br /><br />
+      <input type="radio" name="lytis" value="vyras" required />Vyras
+      <input type="radio" name="lytis" value="moteris" required />Moteris
+      <br /><br />
+      <button type="submit">Prisijungti</button>
+      <hr />
+    </form>
+    <form>
+      Issiuskite zinute<br /><br />
+      <label for="vardas">Vardas</label><br />
+      <input
+        type="text"
+        placeholder="Iveskite varda"
+        id="vardas"
+        style="width: 200px"
+        required
+      /><br /><br />
+      <label for="email">email</label><br />
+      <input
+        type="email"
+        id="email"
+        placeholder="Iveskite email"
+        style="width: 200px"
+        required
+      /><br /><br />
+      <label for="emailr">pakartokite email</label><br />
+      <input
+        type="email"
+        id="emailr"
+        placeholder="Iveskite email dar karta"
+        style="width: 200px"
+        required
+      /><br /><br />
+      <label for="zinute">Zinute</label><br />
+      <textarea
+        id="zinute"
+        placeholder="Apie save"
+        style="width: 200px"
+        required
+      ></textarea
+      ><br /><br />
+      <label
+        >Lytis<br />
+        <input type="radio" name="lytis" value="vyras" required />Vyras
+        <input
+          type="radio"
+          name="lytis"
+          value="moteris"
+          required
+        />Moteris </label
+      ><br /><br />
+      <button type="submit">Prisijungti</button>
+      <hr />
+    </form>
 </body>
 </html>
