@@ -1,0 +1,9 @@
+{
+  "editor.colorDecoratorsActivatedOn": "clickAndHover",
+  "prettier.bracketSameLine": true,
+  "prettier.endOfLine": "lf",
+  "prettier.experimentalTernaries": false,
+  "prettier.insertPragma": false,
+  "prettier.jsxSingleQuote": false,
+  "javascript.inlayHints.enumMemberValues.enabled": false
+}

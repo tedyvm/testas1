@@ -19,4 +19,7 @@ th {
 body {
   font-family: "Roboto Condensed", serif;
   font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
 }
