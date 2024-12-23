@@ -1,0 +1,33 @@
+ul.sarasas1{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.sarasas1 li::before{ 
+    content: ">";
+    color: red;
+    font-size: 20px;
+    margin-right: 10px;  
+}
+.sarasas1 li:hover{
+    background-color: lightgray;
+}
+
+ul.sarasas2 > li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul.sarasas2 > li::before{ 
+    content: "O";
+    color: red;
+    font-size: 20px;
+    margin-right: 10px;  
+}
+ol {
+    list-style-type: upper-roman;
+}
+.saraso-elementai{
+    list-style-type: none !important;
+}
+
