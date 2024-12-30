@@ -1,0 +1,72 @@
+body{
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+background: #E2E1E1;
+}
+
+h2{
+font-size: 0.7em;
+font-weight: 300;
+}
+h4{
+font-size: 1em;
+text-decoration-thickness: 2em;
+}
+
+.kortele {
+align-items: center;
+padding: px;
+margin: 0 auto;
+position: relative;
+width: 276px;
+height: 345px;
+background: #FFFFFF;
+box-shadow: 0px 0px 1px rgba(40, 41, 61, 0.04), 0px 2px 4px rgba(96, 97, 112, 0.16);
+border-radius: 12px;
+}
+
+div.foto{
+width: 100%;
+position: relative;
+border-radius: 12px 12px 0px 0px;
+height: 176px;
+}
+
+img.foto  {
+width: 100%;
+position: relative;
+border-radius: 12px 12px 0px 0px;
+height: 176px;
+}
+div.data {
+text-align: center;
+margin: auto;
+font-size: 0.8em;
+position: absolute;
+width: 56px;
+height: 56px;
+right: 16px;
+bottom: -28px;
+background: #FFFFFF;
+box-shadow: 0px 1px 1px rgba(40, 41, 61, 0.04), 0px 1px 4px rgba(96, 97, 112, 0.16);
+border-radius: 12px;
+}
+.diena{
+    font-size: 1.9em;
+}
+
+.apr{
+height: 90px;
+padding: 16px;
+}
+
+img.buttons{
+position: relative;
+bottom: px;
+left: 16px;
+width: 32px;
+height: 32px;
+border: 1px solid #959393;
+border-radius: 200px;
+}
