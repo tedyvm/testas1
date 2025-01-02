@@ -1,0 +1,73 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+div{
+    display: flex;
+    padding: 10px;
+}
+div>p{
+    background: white;
+}
+
+body>div:nth-child(even){
+    background: yellow;
+}
+
+div:nth-child(odd){
+    background: green;
+}
+
+div:nth-child(1){
+display: flex;
+justify-content: flex-start;
+
+}
+
+div:nth-child(1)>p{
+    width: 25%;
+    height: 300px;
+}
+
+div:nth-child(2){
+display: flex;
+justify-content: flex-end;
+}
+
+div:nth-child(2)>p{
+    width: 25%;
+    height: 300px;
+}
+
+div:nth-child(3){
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 300px;
+    }
+    
+div:nth-child(3)>p{
+    width: 25%;
+}
+
+div:nth-child(4){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    }
+    
+div:nth-child(4)>p{
+    width: 25%;
+}
+
+div:nth-child(5){
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    height: 300px;
+    }
+    
+div:nth-child(5)>p{
+    width: 25%;
+}

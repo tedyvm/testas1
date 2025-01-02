@@ -1,0 +1,50 @@
+
+.flex_column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex_column > div:nth-child(odd) {
+    background: orange
+}
+
+.flex_column > div:nth-child(even) {
+    background: #f00;
+}
+
+.flex_column > div:nth-child(1){
+    display: flex;
+}
+.flex_column > div:nth-child(2){
+    display: flex;
+    justify-content: space-evenly;
+}
+.flex_column > div:nth-child(2) > p{
+    background: white;
+    width: 30%;
+}
+
+.flex_column > div:nth-child(3){
+    display: flex;
+    justify-content: center;
+}
+
+.flex_column > div:nth-child(3)>p{
+    width: 40%;
+    background: white;
+    padding: 10px;
+
+}
+
+.flex_column > div:nth-child(4){
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.flex_column > div:nth-child(4)>p{
+    width: 20%;
+    background: orange;   
+    padding: 20px;
+
+}
