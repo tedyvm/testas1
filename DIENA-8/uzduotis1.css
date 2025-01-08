@@ -63,7 +63,7 @@ div.foto {
     
 }
 
-.container {
+.kortele {
     max-width: 376px;
     width: 25%-10px;
     height: 629px;
@@ -132,7 +132,7 @@ div.foto {
         line-height: 20px;
     }
     
-    .container {
+    .kortele {
         max-width: 376px;
         width: 44%;
         flex-direction: column;
