@@ -14,7 +14,8 @@
   </head>
   <body>
     <!-- NAVIGACINE JUOSTA -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+
+    <nav class="navbar navbar-expand-lg">
       <div class="container">
         <a class="navbar-brand" href="#">
           <svg
@@ -40,7 +41,6 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <!--ms-auto sulygiavo i desine  -->
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#"
                 >Pagrindinis</a
@@ -64,18 +64,31 @@
     </nav>
 
     <!-- Header section -->
-    <header class="container-fluid my-2">
-      <h1>Įmonė besiverčianti reklama</h1>
-      <h2>
-        Įmonės pristatymas keliais sakiniais, pagrindinės veiklos apibūdinimas
-      </h2>
-      <button class="btn btn-success m-5 px-5">Susisiekite</button>
-    </header>
+
+    <div
+      class="container-fluid align-items-center my-2 hero"
+      style="border: 2px rgb(129, 10, 10) solid">
+      <div class="row" style="border: 2px rgb(129, 10, 10) solid">
+        <div class="col text-center" style="border: 2px rgb(129, 10, 10) solid">
+          <h1 style="border: 2px rgb(129, 10, 10) solid">
+            Įmonė besiverčianti reklama
+          </h1>
+          <h2
+            class="mx-auto text-center"
+            style="border: 2px rgb(129, 10, 10) solid">
+            Įmonės pristatymas keliais sakiniais, pagrindinės veiklos
+            apibūdinimas
+          </h2>
+          <button class="btn btn-success my-5 px-5">Susisiekite</button>
+        </div>
+      </div>
+    </div>
 
     <!-- Main section 1 -->
+
     <div class="container my-5">
       <div class="row">
-        <div class="col-12 col-md-12 col-lg-6">
+        <div class="col-12 col-md-12 col-lg-6 text-center text-md-start">
           <div class="row">
             <div class="col-12 col-md-6 col-lg-6">
               <svg
@@ -188,24 +201,19 @@
     <div
       class="container-fluid d-flex flex-column justify-content-center align-items-center my-5 py-5 ms2">
       <h3>Vaizdai iš mūsų įmonės</h3>
-      <p>
+      <p class="viduryje">
         Nulla volutpat in ut risus imperdiet aenean justo, tristique neque
         scelerisque feugiat adipiscing non nulla feugiat lacus sem sed maecenas
       </p>
-      <div class="ratio ratio-16x9 my-4" style="max-width: 872px">
+      <div class="embed-responsive embed-responsive-16by9">
         <iframe
-          width="560"
-          height="315"
+          class="embed-responsive-item"
           src="https://www.youtube.com/embed/c-I5S_zTwAc?si=Zo05VyPXjc19Qylh"
-          title="YouTube video player"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
           allowfullscreen></iframe>
       </div>
     </div>
 
-    <!-- Main section 3 -->
+    <!-- Main section 3 statistika-->
     <div class="container my5">
       <div class="row">
         <div class="col-lg-6 col-12">
@@ -309,6 +317,202 @@
         </div>
       </div>
     </div>
+
+    <!-- Main section 4 darbu galerija -->
+    <div class="container-fluid ms4">
+      <div
+        class="container d-flex flex-column justify-content-center align-items-center py-5 ms4">
+        <h3>Darbų galerija</h3>
+        <p class="viduryje">
+          Amet rutrum molestie nibh sed nulla facilisis commodo, dui in viverra
+          lectus quis faucibus volutpat leo ut sed dignissim egestas
+        </p>
+        <div class="row my-5 justify-content-center" style="max-width: 1200px">
+          <div class="col-12 col-md-6 col-lg-4" style="max-width: 400px">
+            <img src="/Bootstrap-Figma/Icons/Rectangle 8.svg" alt="" />
+            <h4>Pirmas projektas</h4>
+            <p>
+              In proin odio pellentesque vitae, fringilla parturient nulla
+              dignissim turpis mauris maecenas mattis phasellus eu, bibendum
+              viverra curabitur elementum viverra.
+            </p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4" style="max-width: 400px">
+            <img src="/Bootstrap-Figma/Icons/Rectangle 9.svg" alt="" />
+            <h4>Antras projektas</h4>
+            <p>
+              In proin odio pellentesque vitae, fringilla parturient nulla
+              dignissim turpis mauris maecenas mattis phasellus eu, bibendum
+              viverra curabitur elementum viverra.
+            </p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4" style="max-width: 400px">
+            <img src="/Bootstrap-Figma/Icons/Rectangle 10.svg" alt="" />
+            <h4>Trecias projektas</h4>
+            <p>
+              In proin odio pellentesque vitae, fringilla parturient nulla
+              dignissim turpis mauris maecenas mattis phasellus eu, bibendum
+              viverra curabitur elementum viverra.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- mai section 5 prenumeruoti -->
+    <div
+      class="container-fluid d-flex flex-column justify-content-center align-items-center py-5"
+      style="background-color: #5f6b81">
+      <h3 style="color: white">Prenumeruoti</h3>
+      <p class="viduryje" style="color: white">
+        Amet tristique et integer dolor mi nullam risus id dapibus ornare in
+        morbi non adipiscing pellentesque facilisis sed amet, porta
+      </p>
+      <form class="d-flex justify-content-center align-items-center my-4">
+        <input
+          type="email"
+          class="form-control"
+          id="exampleInputEmail1"
+          aria-describedby="emailHelp"
+          style="max-width: 400px"
+          placeholder="Įveskite el. paštą" />
+        <button type="submit" class="btn btn-success" style="width: 140px">
+          Prenumeruoti
+        </button>
+      </form>
+    </div>
+
+    <!-- Main section 6 Komanda -->
+    <div class="container-fluid">
+      <div
+        class="container d-flex flex-column justify-content-center align-items-center py-5">
+        <h3>Komanda</h3>
+        <p class="viduryje">
+          Gravida arcu consectetur ut fringilla augue risus enim sit mattis
+          lacinia libero netus lectus aenean proin lobortis praesent lobortis at
+        </p>
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card m-1 mx-auto" style="max-width: 18rem">
+              <img
+                src="/Bootstrap-Figma/Backgrounds/Rectangle 12.svg"
+                class="card-img-top"
+                alt="..." />
+              <div
+                class="card-body d-flex flex-column align-items-center justify-content-center"
+                style="background-color: #eeeeee">
+                <h4>Ona Onutiene</h4>
+                <p class="card-text">Direktore</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card m-1 mx-auto" style="max-width: 18rem">
+              <img
+                src="/Bootstrap-Figma/Backgrounds/Rectangle 13.svg"
+                class="card-img-top"
+                alt="..." />
+              <div
+                class="card-body d-flex flex-column align-items-center justify-content-center"
+                style="background-color: #eeeeee">
+                <h4>Petras Petrauskas</h4>
+                <p class="card-text">Reklamos vadovas</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card m-1 mx-auto" style="max-width: 18rem">
+              <img
+                src="/Bootstrap-Figma/Backgrounds/Rectangle 14.svg"
+                class="card-img-top"
+                alt="..." />
+              <div
+                class="card-body d-flex flex-column align-items-center justify-content-center"
+                style="background-color: #eeeeee">
+                <h4>Inga Ingauskienė</h4>
+                <p class="card-text">Marketingo vadovė</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="card m-1 mx-auto" style="max-width: 18rem">
+              <img
+                src="/Bootstrap-Figma/Backgrounds/Rectangle 15.png"
+                class="card-img-top"
+                alt="..." />
+              <div
+                class="card-body d-flex flex-column align-items-center justify-content-center"
+                style="background-color: #eeeeee">
+                <h4>Giedrius Giedriauskas</h4>
+                <p class="card-text">SEO specialistas</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Main section 7 kontaktai -->
+    <div
+      class="container-fluid d-flex flex-column justify-content-center align-items-center py-5">
+      <h3>Paklbekime apie tai kas jums svarbu</h3>
+      <p class="viduryje">
+        At nunc interdum suscipit sit justo, commodo amet tristique aliquet sit
+        mi proin facilisi et, pharetra pellentesque id tortor tempus
+      </p>
+      <button class="btn btn-success m-5 px-5">Susisiekite</button>
+    </div>
+
+    <!-- Main sectio 8 pabaiga -->
+    <div class="container-fluid footer1">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-3 text-md-start text-center pe-5">
+            <svg
+              width="143"
+              height="21"
+              viewBox="0 0 143 21"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M3.5957 6.26367L3.69727 7.62207C4.50977 6.5472 5.57194 6.00977 6.88379 6.00977C9.24512 6.00977 10.4596 7.66439 10.5273 10.9736V20H6.92188V11.2402C6.92188 10.4616 6.80339 9.89876 6.56641 9.55176C6.33789 9.19629 5.93164 9.01855 5.34766 9.01855C4.69596 9.01855 4.18815 9.35286 3.82422 10.0215V20H0.21875V6.26367H3.5957ZM17.875 20H14.2695V6.26367H17.875V20ZM14.1045 2.70898C14.1045 2.15039 14.2822 1.69336 14.6377 1.33789C14.9932 0.982422 15.4671 0.804688 16.0596 0.804688C16.652 0.804688 17.126 0.982422 17.4814 1.33789C17.8369 1.69336 18.0146 2.15039 18.0146 2.70898C18.0146 3.25911 17.8369 3.71615 17.4814 4.08008C17.1344 4.44401 16.6605 4.62598 16.0596 4.62598C15.4587 4.62598 14.9805 4.44401 14.625 4.08008C14.278 3.71615 14.1045 3.25911 14.1045 2.70898ZM26.6191 17.2705C27.6602 17.2705 28.1891 16.5934 28.2061 15.2393H31.583C31.5661 16.7373 31.1048 17.9476 30.1992 18.8701C29.2936 19.7926 28.1257 20.2539 26.6953 20.2539C24.9264 20.2539 23.5765 19.7038 22.6455 18.6035C21.7145 17.5033 21.2406 15.8825 21.2236 13.7412V12.6494C21.2236 10.4912 21.6807 8.84505 22.5947 7.71094C23.5173 6.57682 24.8757 6.00977 26.6699 6.00977C28.1849 6.00977 29.3783 6.47949 30.25 7.41895C31.1217 8.34993 31.5661 9.67448 31.583 11.3926H28.2061C28.1976 10.6224 28.0706 10.0299 27.8252 9.61523C27.5798 9.20052 27.1735 8.99316 26.6064 8.99316C25.9801 8.99316 25.5316 9.21745 25.2607 9.66602C24.9899 10.1061 24.846 10.9652 24.8291 12.2432V13.6396C24.8291 14.7568 24.8841 15.5397 24.9941 15.9883C25.1042 16.4284 25.2861 16.7542 25.54 16.9658C25.7939 17.1689 26.1536 17.2705 26.6191 17.2705ZM41.1396 20C41.0381 19.7884 40.9365 19.4329 40.835 18.9336C40.1917 19.8138 39.32 20.2539 38.2197 20.2539C37.0687 20.2539 36.1123 19.873 35.3506 19.1113C34.5973 18.3496 34.2207 17.3636 34.2207 16.1533C34.2207 14.7145 34.6777 13.6016 35.5918 12.8145C36.5143 12.0273 37.8389 11.6253 39.5654 11.6084H40.6572V10.5039C40.6572 9.88607 40.5514 9.4502 40.3398 9.19629C40.1283 8.94238 39.8193 8.81543 39.4131 8.81543C38.516 8.81543 38.0674 9.34017 38.0674 10.3896H34.4746C34.4746 9.12012 34.9486 8.07487 35.8965 7.25391C36.8529 6.42448 38.0589 6.00977 39.5146 6.00977C41.0212 6.00977 42.1849 6.40332 43.0059 7.19043C43.8353 7.96908 44.25 9.08626 44.25 10.542V17.0039C44.2669 18.1888 44.4362 19.1156 44.7578 19.7842V20H41.1396ZM39.0195 17.4355C39.4173 17.4355 39.7559 17.3551 40.0352 17.1943C40.3145 17.0335 40.5218 16.8431 40.6572 16.623V13.7666H39.7939C39.1846 13.7666 38.7021 13.9613 38.3467 14.3506C37.9997 14.7399 37.8262 15.2604 37.8262 15.9121C37.8262 16.9277 38.224 17.4355 39.0195 17.4355ZM61.624 9.72949L60.4307 9.62793C59.4489 9.62793 58.7845 10.0596 58.4375 10.9229V20H54.832V6.26367H58.2217L58.3232 7.74902C58.8903 6.58952 59.6732 6.00977 60.6719 6.00977C61.0781 6.00977 61.4082 6.06478 61.6621 6.1748L61.624 9.72949ZM69.7715 20.2539C67.9264 20.2539 66.4876 19.7038 65.4551 18.6035C64.4225 17.5033 63.9062 15.929 63.9062 13.8809V12.7891C63.9062 10.6224 64.3802 8.95085 65.3281 7.77441C66.276 6.59798 67.6344 6.00977 69.4033 6.00977C71.1299 6.00977 72.429 6.56413 73.3008 7.67285C74.1725 8.77311 74.6169 10.4066 74.6338 12.5732V14.3379H67.4863C67.5371 15.3535 67.7614 16.0983 68.1592 16.5723C68.557 17.0378 69.1706 17.2705 70 17.2705C71.2018 17.2705 72.2048 16.86 73.0088 16.0391L74.418 18.21C73.9779 18.8193 73.3389 19.3145 72.501 19.6953C71.6631 20.0677 70.7533 20.2539 69.7715 20.2539ZM67.5117 11.8242H71.1045V11.4941C71.0876 10.6732 70.9521 10.0511 70.6982 9.62793C70.4443 9.20475 70.0042 8.99316 69.3779 8.99316C68.7516 8.99316 68.2946 9.21745 68.0068 9.66602C67.7275 10.1146 67.5625 10.834 67.5117 11.8242ZM82.2227 14.7061L81.2578 15.7852V20H77.665V0.5H81.2578V11.0371L81.7021 10.377L84.1904 6.26367H88.4688L84.4824 11.9258L88.8496 20H84.7363L82.2227 14.7061ZM94.877 20H91.2715V0.5H94.877V20ZM105.183 20C105.081 19.7884 104.979 19.4329 104.878 18.9336C104.235 19.8138 103.363 20.2539 102.263 20.2539C101.112 20.2539 100.155 19.873 99.3936 19.1113C98.6403 18.3496 98.2637 17.3636 98.2637 16.1533C98.2637 14.7145 98.7207 13.6016 99.6348 12.8145C100.557 12.0273 101.882 11.6253 103.608 11.6084H104.7V10.5039C104.7 9.88607 104.594 9.4502 104.383 9.19629C104.171 8.94238 103.862 8.81543 103.456 8.81543C102.559 8.81543 102.11 9.34017 102.11 10.3896H98.5176C98.5176 9.12012 98.9915 8.07487 99.9395 7.25391C100.896 6.42448 102.102 6.00977 103.558 6.00977C105.064 6.00977 106.228 6.40332 107.049 7.19043C107.878 7.96908 108.293 9.08626 108.293 10.542V17.0039C108.31 18.1888 108.479 19.1156 108.801 19.7842V20H105.183ZM103.062 17.4355C103.46 17.4355 103.799 17.3551 104.078 17.1943C104.357 17.0335 104.565 16.8431 104.7 16.623V13.7666H103.837C103.228 13.7666 102.745 13.9613 102.39 14.3506C102.043 14.7399 101.869 15.2604 101.869 15.9121C101.869 16.9277 102.267 17.4355 103.062 17.4355ZM115.272 6.26367L115.374 7.5332C116.178 6.51758 117.24 6.00977 118.561 6.00977C119.932 6.00977 120.901 6.6276 121.468 7.86328C122.255 6.6276 123.376 6.00977 124.832 6.00977C127.236 6.00977 128.467 7.67285 128.526 10.999V20H124.934V11.2275C124.934 10.432 124.824 9.86491 124.604 9.52637C124.383 9.18783 124.011 9.01855 123.486 9.01855C122.818 9.01855 122.318 9.42904 121.988 10.25L122.014 10.6816V20H118.421V11.2529C118.421 10.4658 118.315 9.89876 118.104 9.55176C117.892 9.19629 117.515 9.01855 116.974 9.01855C116.356 9.01855 115.865 9.35286 115.501 10.0215V20H111.908V6.26367H115.272ZM138.718 20C138.616 19.7884 138.515 19.4329 138.413 18.9336C137.77 19.8138 136.898 20.2539 135.798 20.2539C134.647 20.2539 133.69 19.873 132.929 19.1113C132.175 18.3496 131.799 17.3636 131.799 16.1533C131.799 14.7145 132.256 13.6016 133.17 12.8145C134.092 12.0273 135.417 11.6253 137.144 11.6084H138.235V10.5039C138.235 9.88607 138.13 9.4502 137.918 9.19629C137.706 8.94238 137.397 8.81543 136.991 8.81543C136.094 8.81543 135.646 9.34017 135.646 10.3896H132.053C132.053 9.12012 132.527 8.07487 133.475 7.25391C134.431 6.42448 135.637 6.00977 137.093 6.00977C138.599 6.00977 139.763 6.40332 140.584 7.19043C141.413 7.96908 141.828 9.08626 141.828 10.542V17.0039C141.845 18.1888 142.014 19.1156 142.336 19.7842V20H138.718ZM136.598 17.4355C136.995 17.4355 137.334 17.3551 137.613 17.1943C137.893 17.0335 138.1 16.8431 138.235 16.623V13.7666H137.372C136.763 13.7666 136.28 13.9613 135.925 14.3506C135.578 14.7399 135.404 15.2604 135.404 15.9121C135.404 16.9277 135.802 17.4355 136.598 17.4355Z"
+                fill="white" />
+            </svg>
+            <p class="text-md-start text-center">
+              Dictum bibendum nisl donec morbi at pharetra sed quis vitae
+              integer pharetra, tincidunt morbi nec aliquam non lacus, sagittis
+              non
+            </p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 text-md-start text-center pe-5">
+            <h4 class="text-md-start text-center">KONTAKTAI</h4>
+            <p class="text-md-start text-center">
+              Adresas: Gatvė g. 24-10, Kaunas, LT54877, Lietuva Telefonai
+              pasiteiravimui: +370 123 45678 +370 987 65432
+            </p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 text-md-start text-center pe-5">
+            <h4 class="text-md-start text-center">Straipsniai</h4>
+            <p class="text-md-start text-center">
+              Adresas: Gatvė g. 24-10, Kaunas, LT54877, Lietuva Telefonai
+              pasiteiravimui: +370 123 45678 +370 987 65432
+            </p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 text-md-start text-center pe-5">
+            <h4 class="text-md-start text-center">Navigacija</h4>
+            <p class="text-md-start text-center">
+              Adresas: Gatvė g. 24-10, Kaunas, LT54877, Lietuva Telefonai
+              pasiteiravimui: +370 123 45678 +370 987 65432
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="container-fluid">
+      <div class="container text-center">
+        <p>Viso teises saugomos nica reklama</p>
+      </div>
+    </footer>
 
     <script src="/Bootstrap-Figma/bootstrap.bundle.js"></script>
   </body>

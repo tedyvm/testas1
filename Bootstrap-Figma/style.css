@@ -8,24 +8,25 @@ body {
   padding: 0;
 }
 
-header {
+.hero {
   background: url(/Bootstrap-Figma/Backgrounds/header_bgr.svg);
-  background-position: center;
-  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   height: 800px;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
-header > h1 {
+h1 {
   font-size: 70px;
   font-weight: 500;
   line-height: 82px;
   color: #fff;
   margin-bottom: 33px;
 }
-header > h2 {
+h2 {
   font-size: 26px;
   font-weight: 400;
   line-height: 30px;
@@ -50,6 +51,7 @@ h4 {
   line-height: 25.78px;
   color: #404445;
   text-align: left;
+  margin: 20px 0px;
 }
 p {
   font-family: "Roboto", serif;
@@ -59,10 +61,14 @@ p {
   color: #5f6b81;
   text-align: left;
 }
-div.ms2 p {
+p.viduryje {
   max-width: 648px;
   width: 100%;
   text-align: center;
+}
+p.kaireje {
+  max-width: 648px;
+  width: 100%;
 }
 /* div.ms2{
     display: flex;
@@ -80,12 +86,34 @@ div.ms2 p {
   font-weight: 900;
 }
 
-.image-container img {
+img {
   max-width: 100%; /* Užtikrina, kad paveikslėlis neužims daugiau nei konteinerio pločio */
   max-height: 100%; /* Užtikrina, kad paveikslėlis neužims daugiau nei konteinerio aukščio */
   object-fit: contain; /* Paveikslėlis bus įtrauktas į konteinerį be iškraipymo */
 }
-.ms2 {
+.ms2, .ms4 {
   background-color: #f1f8ff;
 }
 
+.footer1 {
+  background-color: #2F323B;
+  padding: 67px 0;
+}
+.footer1 svg{
+    margin-top: 19px;
+}
+.footer1 p{
+    color: #7A7C88;
+    margin-top: 30px;
+}
+.footer1 h4{
+    color: white;
+}
+footer{
+    background-color: #2A2D36;
+    padding: 25px 0;
+}
+footer p{
+    color: #7A7C88;
+    font-size: px;
+}
