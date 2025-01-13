@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "Segoe UI";
+  src: url(/Figma-10/Segoe\ UI.ttf);
+}
+.linkai {
+  font-family: "Segoe UI";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  text-decoration-skip-ink: none;
+}
+.sign-up,
+.read-more {
+  padding: 8px 32px;
+  width: auto;
+  height: 44px;
+  background: #ff6978;
+  border-radius: 14px;
+  border: none;
+  font-family: "Segoe UI";
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+}
+.blokas {
+  border-radius: 25px;
+  overflow: hidden;
+}
+.apr {
+  background-color: #ffeee2;
+}
+h1{
+    font-family: "Montserrat";
+font-size: 45px;
+font-weight: 800;
+line-height: 54px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+h2 {
+  font-family: "Montserrat";
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 38.4px;
+  text-align: left;
+  text-decoration-skip-ink: none;
+}
+h3 {
+  font-family: "Montserrat";
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 36px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+p {
+  font-family: "Segoe UI";
+  font-size: 18px;
+  font-weight: 350;
+  line-height: 28px;
+  text-align: left;
+  text-decoration-skip-ink: none;
+}
+ul.linkai > *{
+    list-style-type:none;
+    font-family: "Segoe UI";
+font-size: 18px;
+font-weight: 400;
+line-height: 28px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
