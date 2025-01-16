@@ -1,0 +1,21 @@
+.bord1{
+    background-color: aqua;
+    border: 1px solid red;
+    height: 600px;
+}
+.bord2{
+    border: 1px solid rgb(13, 0, 255);
+    height: 400px;
+}
+.bord3{
+    border: 1px solid rgb(238, 255, 0);
+    
+}
+.bord4{
+    border: 1px solid rgb(29, 132, 18);
+}
+.vidus{
+    background-color: brown;
+    min-height: 50px;
+    width: 100%;
+}

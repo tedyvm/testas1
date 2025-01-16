@@ -55,6 +55,7 @@ text-align: center;
 letter-spacing: 2px;
 text-transform: uppercase;
 color: #FFFFFF;
+word-wrap: break-word;
 }
 h2{
 font-family: 'Raleway';
@@ -87,6 +88,9 @@ text-align: center;
 letter-spacing: 2px;
 text-transform: uppercase;
 color: #222222;
+}
+h4 span{
+  color: red;
 }
 p{
 font-family: 'Open Sans';
