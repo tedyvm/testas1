@@ -1,0 +1,98 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+.nav {
+  height: 30px;
+  width: 100%;
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav div:nth-child(1) {
+  width: 40%;
+  padding-left: 15px;
+}
+.nav div:nth-child(2) {
+  width: 40%;
+  padding-right: 15px;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  font-size: 0.7rem;
+}
+header {
+  background: lightgreen;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  margin: 0;
+}
+button.pirmas {
+  background: black;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+button.antras {
+  background: lightgreen;
+  color: black;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.s1 {
+  background: lightseagreen;
+  padding: 5px 15px;
+}
+
+.s2 {
+  background: wheat;
+}
+.straipsniai {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+  gap: 30px;
+}
+.straipsniai div {
+  width: calc(33.33% - 60px);
+  padding: 20px;
+  background: whitesmoke;
+}
+
+.s3 {
+  padding: 20px;
+  color: white;
+  background: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.aprasas {
+  max-width: 50%;
+  border: 1px solid black;
+}
+.info {
+  width: 20%;
+  border: 1px solid black;
+}
+.s3 a {
+  color: rgb(14, 143, 117);
+  text-decoration: none;
+}
+@media (max-width: 768px) {
+  .straipsniai div {
+    width: calc(100% - 20px);
+  }
+}

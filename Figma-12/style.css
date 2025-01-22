@@ -31,8 +31,9 @@ body {
 nav ul {
   gap: 48px;
 }
-.headeris, .s1{
-    padding: 36px 10px;
+.headeris,
+.s1 {
+  padding: 36px 10px;
 }
 
 @media screen and (min-width: 991px) {
@@ -83,13 +84,23 @@ nav ul {
     text-align: center;
     color: #ffffff;
   }
+  .foto1{
+    width: 100%;
+    object-fit: cover;
+  }
 }
 
 @media screen and (max-width: 990px) {
-  .navigacija{
+  
+  .foto1{
+    height: 327px;
+    width: 100%;
+    object-fit: cover;
+  }
+  .navigacija {
     margin: 10px;
   }
-    .headeris {
+  .headeris {
     padding: 50px 30px;
     width: 100%;
     background-color: #f6f4f5;
@@ -138,10 +149,7 @@ nav ul {
     color: #ffffff;
     width: 100%;
   }
-  .s3 img{
-    height: 277px;
-object-fit: scale-down;
-  }
+
 }
 p {
   font-family: "Inter";
