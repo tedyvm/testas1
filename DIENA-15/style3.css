@@ -1,0 +1,175 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Plus Jakarta Sans";
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 113.4px;
+  text-align: center;
+}
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 45.36px;
+  text-align: left;
+}
+h3 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32.69px;
+  text-align: left;
+}
+p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+}
+.container-1,
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+.container-fluid {
+  width: 100%;
+}
+nav li {
+  list-style: none;
+}
+nav a {
+  text-decoration: none;
+  color: #1b6bed;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.16px;
+  text-align: left;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0;
+  margin: 0 15px;
+}
+.container-fluid-1 {
+  width: 100%;
+  height: 931px;
+  background-image: url(https://s3-alpha-sig.figma.com/img/3b43/b3ba/9fe8a2f8cbf05ee6d21002fe5d546eec?Expires=1738540800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=NlG6QOqMiYAe~USRtZwKby720O9XWlpXwPTcKOHxqNW76Q1U1nh3oD7qLFyD561kwxwVQvBCz3ljDQi0t7~W4O67vvJyy1Y75jxtmEE5S6KG~pFEKegfd8KDFfI6PloboTw-vy~pcXX32cDBlMTn9brVbHiooHFmBYAgPeXdw~GpcjX1vxGzCnypShEjLu-W7APS879Iu6iWSIorYI~L08A2q-uSbAMWt5bvnhE8qOsBhiQySAXaUkAh-zlR~h3PxVlb-2dmVotxJxvyQPfqLJ4hb~EvTYRzdtVAV2HAqEPh6Un5sos0A4xlMQSFjSUECcxWnzkGB3DzHznEMbuMQA__);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+
+}
+.c1-kampas{
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+  width: 30%;
+}
+.headeris {
+  text-align: center;
+  color: white;
+}
+h4 {
+  font-family: "Plus Jakarta Sans";
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 45.36px;
+  margin-bottom: 40px;
+}
+.container-1 {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mygtukas {
+  padding: 15px 34px;
+  background: linear-gradient(180deg, #00d4e4 -40.5%, #1f59ee 97.28%);
+  border-radius: 24px;
+  color: white;
+  font-family: "Plus Jakarta Sans";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17.64px;
+  text-transform: uppercase;
+}
+.container-2 {
+  margin-top: 167px;
+  margin-bottom: 125px;
+  color: #666666;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 5px;
+}
+.container-fluid-3 {
+  
+}
+.kortele-bg{
+  background-image: url(/DIENA-15/Pagrindinis/Lithuania.png);
+  background-repeat: no-repeat;
+  background-position: right top;
+  padding-top: 68px;
+}
+.kortele {
+  padding: 74px;
+position: relative;
+  max-width: 850px;
+  background: #ffffff;
+  box-shadow: 0px 0px 20px rgba(122, 116, 116, 0.1);
+  border: 1px solid red;
+}
+.mygtukas-2 {
+  border: 2px solid #1f59ee;
+  color: #1f59ee;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 15px 34px;
+  gap: 10px;
+  border-radius: 24px;
+  margin: 10px 0;
+}
+.foto-blokas{
+  position: absolute;
+  right: -130px;
+  bottom: 200px;
+  flex-grow: 1;
+    max-width: 320px;
+    height: 450px;
+    border: 1px solid red;
+}
+.foto-1{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    
+
+}
+.container-3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
