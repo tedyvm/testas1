@@ -78,9 +78,8 @@ nav {
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
-
 }
-.c1-kampas{
+.c1-kampas {
   position: absolute;
   bottom: 0px;
   right: 0;
@@ -123,22 +122,26 @@ h4 {
   align-items: flex-start;
   gap: 5px;
 }
-.container-fluid-3 {
-  
-}
-.kortele-bg{
+.container-3 {
+  width: 100%;
   background-image: url(/DIENA-15/Pagrindinis/Lithuania.png);
   background-repeat: no-repeat;
-  background-position: right top;
+  background-size: contain;
+  background-size: 35%;
   padding-top: 68px;
+  background-position-x: 70%;
+  padding-bottom: 170px;
+}
+.kortele-bg {
+  max-width: 1320px;
+  margin: 0 auto;
 }
 .kortele {
   padding: 74px;
-position: relative;
-  max-width: 850px;
+  position: relative;
+  max-width: 750px;
   background: #ffffff;
   box-shadow: 0px 0px 20px rgba(122, 116, 116, 0.1);
-  border: 1px solid red;
 }
 .mygtukas-2 {
   border: 2px solid #1f59ee;
@@ -151,25 +154,165 @@ position: relative;
   border-radius: 24px;
   margin: 10px 0;
 }
-.foto-blokas{
+.foto-blokas {
   position: absolute;
   right: -130px;
-  bottom: 200px;
+  bottom: 150px;
   flex-grow: 1;
-    max-width: 320px;
-    height: 450px;
-    border: 1px solid red;
+  max-width: 320px;
+  height: 450px;
 }
-.foto-1{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-    
+.foto-1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  filter: drop-shadow(-8px 8px 42px rgba(0, 0, 0, 0.25));
+  border-radius: 15.5856px;
+}
+.container-fluid-4 {
+  background-image: url(https://s3-alpha-sig.figma.com/img/fea8/1bde/d3bd0daf16f11bbd8f583b96605d33d4?Expires=1739145600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DD-jzp-p-fmO4iKswmTgK8mhCn4yErxBO9RyA3P3pgcH-yKU9eW90oLDD3iooIfJTR4UvJfLbe3rGIMGhHuPwQOkJRtVdZqu6Ti2jSigC-pgmhwvpFTR5HXqU~KZ-FowIEiIU70Pm-QBV~3gYmzcZGr8wucVqVifO3UafczsTuubMaoOnSyPlnWckjjTIkxKE1EXFwdRaa-TMAS~7tW5H6VfEkyalLqnwfIghHOAKz97MzJ2z0eILUtjrbm8-Mp9IEVmI4~SryLXj0KxxmqInHVQ3qBFD~9D2GdWQrLeZaG4IY68ZlEHcEY8YIf8Z4-MhebKfrsm9~sL86CblkgCvg__);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+.container-4 {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 160px 0;
+}
+.rezultatai-blokas {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  background: white;
+  gap: 20px;
+  padding: 66px 127px;
+}
+.rezultatai h2 {
+  padding: 30px 0;
+}
+.rezultatai-2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.rez-1 h2 {
+  color: #1f5aeea9;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: left;
+}
+.rez-1 h4 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22.68px;
+  text-align: left;
+  color: #333333;
+  margin: 15px 0 10px 0;
+}
+.c4-kampas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30%;
+}
+.container-fluid-5 {
+  width: 100%;
+  position: relative;
+}
+.container-5 {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+.right-top {
+  position: absolute;
 
+  right: 0;
+  width: 20%;
 }
-.container-3{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.left-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 20%;
+}
+.container-5 h2 {
+  padding: 83px 0 71px 0;
+}
+.galerija {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 64px;
+  padding-bottom: 119px;
+}
+.galerija-foto {
+  position: relative;
+  width: calc((100% / 4) - 64px);
+  height: 250px;
+}
+.galerija-foto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.galerija-foto p {
+  padding: 16px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: calc(100% - 32px);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+.container-fluid-6 {
+  background: #11224d;
+}
+.f-blokas {
+  padding: 69px 0 0 0;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.f-blokas h4 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22.68px;
+}
+.f-blokas h2 {
+  padding-bottom: 43px;
+}
+
+.f-desine {
+  display: flex;
+  gap: 40px;
+}
+.f-desine li {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+.f-desine ul {
+  padding-inline-start: 0px;
+  margin-block-start: 0;
+  margin-block-end: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.f-desine p {
+  margin-block-start: 0;
+  margin-block-end: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
 }
