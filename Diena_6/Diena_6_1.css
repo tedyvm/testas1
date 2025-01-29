@@ -1,0 +1,23 @@
+#virsus-blokas a{
+    background-color: bisque;
+    padding: 1em;
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+    margin: 0px;
+    color: rgb(199, 23, 23);
+    text-decoration: none;
+}
+
+#vienas p, #vienas a {
+    font-size: 2em;
+}
+#vienas mark:hover {
+    position: relative;
+    bottom: 10px;
+    font-size: 2em;
+}
+#vienas a:hover {
+    position: relative;
+    left: 20px;
+}

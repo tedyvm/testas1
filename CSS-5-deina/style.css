@@ -1,0 +1,53 @@
+body {
+    background-color: aqua;
+}
+div {
+    background-color: yellow;
+    max-width: 80%;
+    margin: 5em auto;
+}
+#pirmas {
+    border: 12px solid rgb(125, 27, 27);
+    box-shadow: 5px 5px 15px black;
+}
+#antras{
+    padding: 5rem;
+    border: 1px solid black;
+    border-radius: 150px;
+    box-shadow: 0 0 50px rgb(0, 0, 0, 0.5);
+}
+
+#trecias{
+    padding: 5em 0;
+    border-bottom: 10px solid rgb(36, 21, 110);
+    border-right: 15px solid rgb(226, 69, 69);
+}
+
+#ketvirtas{
+    padding: 0 3em 1em ;
+    border-radius: 20px 0px 50px 0px;
+    border: 1px solid black;
+
+}
+#penktas{
+    padding: 0em 0em 3em;
+    border-left: 10px dashed rgb(51, 32, 144);
+    box-shadow: 10 10 5px black;
+}
+#sestas li{
+    display: inline;
+}
+
+#septintas{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 50%;
+    background-color: rgb(182, 42, 112);
+}
+#septintas form input{
+    display: block;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}

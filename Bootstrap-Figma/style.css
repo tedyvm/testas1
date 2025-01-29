@@ -1,0 +1,119 @@
+body {
+  font-family: "Roboto", serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.hero {
+  background: url(/Bootstrap-Figma/Backgrounds/header_bgr.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 800px;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+h1 {
+  font-size: 70px;
+  font-weight: 500;
+  line-height: 82px;
+  color: #fff;
+  margin-bottom: 33px;
+}
+h2 {
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #d5d7d8;
+  max-width: 681px;
+  width: 100%;
+}
+
+h3 {
+  font-family: "Roboto", serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46.88px;
+  text-align: center;
+  color: #404445;
+  padding: 40px 0;
+}
+h4 {
+  font-family: "Roboto", serif;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 25.78px;
+  color: #404445;
+  text-align: left;
+  margin: 20px 0px;
+}
+p {
+  font-family: "Roboto", serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.35px;
+  color: #5f6b81;
+  text-align: left;
+}
+p.viduryje {
+  max-width: 648px;
+  width: 100%;
+  text-align: center;
+}
+p.kaireje {
+  max-width: 648px;
+  width: 100%;
+}
+/* div.ms2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+.navbar .nav-link {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.navbar .nav-link.active {
+  color: #43c45f !important;
+  font-weight: 900;
+}
+
+img {
+  max-width: 100%; /* Užtikrina, kad paveikslėlis neužims daugiau nei konteinerio pločio */
+  max-height: 100%; /* Užtikrina, kad paveikslėlis neužims daugiau nei konteinerio aukščio */
+  object-fit: contain; /* Paveikslėlis bus įtrauktas į konteinerį be iškraipymo */
+}
+.ms2, .ms4 {
+  background-color: #f1f8ff;
+}
+
+.footer1 {
+  background-color: #2F323B;
+  padding: 67px 0;
+}
+.footer1 svg{
+    margin-top: 19px;
+}
+.footer1 p{
+    color: #7A7C88;
+    margin-top: 30px;
+}
+.footer1 h4{
+    color: white;
+}
+footer{
+    background-color: #2A2D36;
+    padding: 25px 0;
+}
+footer p{
+    color: #7A7C88;
+    font-size: px;
+}

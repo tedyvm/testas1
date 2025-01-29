@@ -1,0 +1,332 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: "Plus Jakarta Sans";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 113.4px;
+  text-align: center;
+}
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 45.36px;
+  text-align: left;
+}
+h3 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32.69px;
+  text-align: left;
+}
+p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+}
+.container-1,
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+.container-fluid {
+  width: 100%;
+}
+nav li {
+  list-style: none;
+}
+nav a {
+  text-decoration: none;
+  color: #1b6bed;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.16px;
+  text-align: left;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0;
+  margin: 0 15px;
+}
+.container-fluid-1 {
+  width: 100%;
+  height: 931px;
+  background-image: url(https://s3-alpha-sig.figma.com/img/3b43/b3ba/9fe8a2f8cbf05ee6d21002fe5d546eec?Expires=1738540800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=NlG6QOqMiYAe~USRtZwKby720O9XWlpXwPTcKOHxqNW76Q1U1nh3oD7qLFyD561kwxwVQvBCz3ljDQi0t7~W4O67vvJyy1Y75jxtmEE5S6KG~pFEKegfd8KDFfI6PloboTw-vy~pcXX32cDBlMTn9brVbHiooHFmBYAgPeXdw~GpcjX1vxGzCnypShEjLu-W7APS879Iu6iWSIorYI~L08A2q-uSbAMWt5bvnhE8qOsBhiQySAXaUkAh-zlR~h3PxVlb-2dmVotxJxvyQPfqLJ4hb~EvTYRzdtVAV2HAqEPh6Un5sos0A4xlMQSFjSUECcxWnzkGB3DzHznEMbuMQA__);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+.c1-kampas {
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+  width: 30%;
+}
+.headeris {
+  text-align: center;
+  color: white;
+}
+h4 {
+  font-family: "Plus Jakarta Sans";
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 45.36px;
+  margin-bottom: 40px;
+}
+.container-1 {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mygtukas {
+  padding: 15px 34px;
+  background: linear-gradient(180deg, #00d4e4 -40.5%, #1f59ee 97.28%);
+  border-radius: 24px;
+  color: white;
+  font-family: "Plus Jakarta Sans";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17.64px;
+  text-transform: uppercase;
+}
+.container-2 {
+  margin-top: 167px;
+  margin-bottom: 125px;
+  color: #666666;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 5px;
+}
+.container-3 {
+  width: 100%;
+  /* background-image: url(/DIENA-15/Pagrindinis/Lithuania.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: 35%; */
+  padding-top: 68px;
+  background-position-x: 70%;
+  padding-bottom: 170px;
+}
+.kortele-bg {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+.kortele {
+  padding: 74px;
+  position: relative;
+  max-width: 750px;
+  background: #ffffff;
+  box-shadow: 0px 0px 20px rgba(122, 116, 116, 0.1);
+}
+.mygtukas-2 {
+  border: 2px solid #1f59ee;
+  color: #1f59ee;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 15px 34px;
+  gap: 10px;
+  border-radius: 24px;
+  margin: 10px 0;
+}
+.foto-blokas {
+  position: absolute;
+  right: -130px;
+  bottom: 150px;
+  flex-grow: 1;
+  max-width: 320px;
+  height: 450px;
+}
+.foto-1 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  filter: drop-shadow(-8px 8px 42px rgba(0, 0, 0, 0.25));
+  border-radius: 15.5856px;
+}
+.kortele-map{
+  position: absolute;
+  left: 530px;
+  top: -100px;
+  flex-grow: 1;
+  width: 920px;
+  height: auto;
+  z-index: -1;
+}
+.kortele-map img{
+  width: 100%;
+  height: 100%;
+}
+.container-fluid-4 {
+  background-image: url(https://s3-alpha-sig.figma.com/img/fea8/1bde/d3bd0daf16f11bbd8f583b96605d33d4?Expires=1739145600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DD-jzp-p-fmO4iKswmTgK8mhCn4yErxBO9RyA3P3pgcH-yKU9eW90oLDD3iooIfJTR4UvJfLbe3rGIMGhHuPwQOkJRtVdZqu6Ti2jSigC-pgmhwvpFTR5HXqU~KZ-FowIEiIU70Pm-QBV~3gYmzcZGr8wucVqVifO3UafczsTuubMaoOnSyPlnWckjjTIkxKE1EXFwdRaa-TMAS~7tW5H6VfEkyalLqnwfIghHOAKz97MzJ2z0eILUtjrbm8-Mp9IEVmI4~SryLXj0KxxmqInHVQ3qBFD~9D2GdWQrLeZaG4IY68ZlEHcEY8YIf8Z4-MhebKfrsm9~sL86CblkgCvg__);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+.container-4 {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 160px 0;
+}
+.rezultatai-blokas {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  background: white;
+  gap: 20px;
+  padding: 66px 127px;
+}
+.rezultatai h2 {
+  padding: 30px 0;
+}
+.rezultatai-2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 80px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.rez-1 h2 {
+  color: #1f5aeea9;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: left;
+}
+.rez-1 h4 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22.68px;
+  text-align: left;
+  color: #333333;
+  margin: 15px 0 10px 0;
+}
+.c4-kampas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30%;
+}
+.container-fluid-5 {
+  width: 100%;
+  position: relative;
+}
+.container-5 {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+.right-top {
+  position: absolute;
+
+  right: 0;
+  width: 20%;
+}
+.left-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 20%;
+}
+.container-5 h2 {
+  padding: 83px 0 71px 0;
+}
+.galerija {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 64px;
+  padding-bottom: 119px;
+}
+.galerija-foto {
+  position: relative;
+  width: calc((100% / 4) - 64px);
+  height: 250px;
+}
+.galerija-foto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.galerija-foto p {
+  padding: 16px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: calc(100% - 32px);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+.container-fluid-6 {
+  background: #11224d;
+}
+.f-blokas {
+  padding: 69px 0 0 0;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.f-blokas h4 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22.68px;
+}
+.f-blokas h2 {
+  padding-bottom: 43px;
+}
+
+.f-desine {
+  display: flex;
+  gap: 40px;
+}
+.f-desine li {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+.f-desine ul {
+  padding-inline-start: 0px;
+  margin-block-start: 0;
+  margin-block-end: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.f-desine p {
+  margin-block-start: 0;
+  margin-block-end: 16px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}

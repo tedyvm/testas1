@@ -1,0 +1,25 @@
+.langeliai {
+  background-color: rgba(193, 159, 159, 0.6);
+  color: white;
+}
+a {
+  color: blueviolet;
+}
+a:hover {
+  color: darkblue;
+}
+
+tr:nth-child(2n) {
+  background-color: rgba(66, 11, 11, 0.421);
+}
+th {
+  background-color: rgba(172, 39, 130, 0.832);
+  color: white;
+}
+body {
+  font-family: "Roboto Condensed", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 18px;
+  text-align: center;
+}
