@@ -11,7 +11,7 @@ body {
   padding: 0 20px;
 }
 .cont-1 {
-  background: linear-gradient(90deg, rgba(35, 35, 64, 1) 12%, rgba(0, 0, 0, 0) 75%), url(/atsiskaitymas/photos/Sec-h-bg.jpeg);
+  background: linear-gradient(90deg, rgba(35, 35, 64, 1) 12%, rgba(0, 0, 0, 0) 75%), url(/atsiskaitymas/photos/Sec-h-bg-min.jpeg);
   background-size: cover;
   background-position: 70% center;
   min-height: 1000px;
