@@ -17,7 +17,7 @@
   <body>
     <!-- NAVBAR + HERO -->
     <div class="container-fluid cont-1">
-      <nav class="navbar navbar-expand-lg">
+      <nav class="navbar navbar-expand-md">
         <div class="container">
           <a class="navbar-brand" href="#">
             <svg width="138" height="52" viewBox="0 0 138 52" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -37,12 +37,21 @@
             aria-controls="navbarSupportedContent"
             aria-expanded="false"
             aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class=""
+              ><svg width="30" height="30" viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg">
+                <!-- Viršutinė linija -->
+                <rect x="0" y="5" width="30" height="4" fill="#F5F5F5" />
+                <!-- Vidurinė linija -->
+                <rect x="0" y="14" width="30" height="4" fill="#F5F5F5" />
+                <!-- Apatinė linija -->
+                <rect x="0" y="23" width="30" height="4" fill="#F5F5F5" />
+              </svg>
+            </span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Products</a>
+              <li class="nav-item pirmas-link">
+                <a class="nav-link" href="index.html">Products</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="blog.html">Blog</a>
@@ -50,8 +59,8 @@
               <li class="nav-item">
                 <a class="nav-link" href="#">Support</a>
               </li>
-              <li class="nav-item">
-                <button class="mygtukas-1 btn btn-outline-success" type="submit">Get Access</button>
+              <li class="nav-item last-link">
+                <button class="mygtukas-1 btn btn-outline-primary" type="submit">Get Access</button>
               </li>
             </ul>
           </div>
@@ -61,9 +70,9 @@
         <div class="cont-2">
           <h1>Instant collaboration for remote teams</h1>
           <p>All-in-one place for your remote team to chat, collaborate and track project progress.</p>
-          <form action="" class="form-1">
+          <form action="" class="form-1 d-flex flex-wrap flex-sm-nowrap">
             <input type="email" placeholder="Enter your email" />
-            <button class="mygtukas-2 btn btn-success" type="submit">Get Early Access</button>
+            <button class="mygtukas-2 btn btn-primary" type="submit">Get Early Access</button>
           </form>
         </div>
       </div>
@@ -73,7 +82,7 @@
     <div class="container-fluid cont-f-sec-1">
       <div class="container cont-sec-1">
         <div class="row">
-          <div class="apr col-12 col-lg-4 align-items-center">
+          <div class="col-12 col-lg-5 align-self-center order-2 order-lg-1 my-4">
             <h1>Chats for your distributed teams</h1>
             <p>
               Team combines the immediacy of real-time chat with an email threading model. With Team, you can catch up on important conversations
@@ -81,7 +90,7 @@
             </p>
             <a href="#">Learn more &rarr;</a>
           </div>
-          <div class="col-12 col-lg-8">
+          <div class="col-12 col-lg-7 sec-1-r2 order-1 order-lg-2">
             <div class="koliazas">
               <img class="kol-1" src="/atsiskaitymas/photos/Sec-1-1.png" alt="" />
               <img class="kol-2" src="/atsiskaitymas/photos/Sec-1-2.png" alt="" />
@@ -96,7 +105,7 @@
     <div class="container-fluid cont-f-sec-2">
       <div class="container cont-sec-2">
         <div class="row">
-          <div class="col-12 col-md-6 col-lg-6">
+          <div class="col-12 col-md-6 col-lg-6 px-0">
             <div class="koliazas">
               <img
                 class="kol-2-1"
@@ -108,7 +117,7 @@
                 alt="" />
             </div>
           </div>
-          <div class="apr-2 col-12 col-md-6 col-lg-6 ms-auto">
+          <div class="apr-2 col-12 col-md-6 col-lg-6 ms-lg-auto my-4">
             <h1>Chats for your distributed teams</h1>
             <p>
               Team combines the immediacy of real-time chat with an email threading model. With Team, you can catch up on important conversations
@@ -124,7 +133,7 @@
     <div class="container-fluid cont-f-sec-3">
       <div class="container cont-sec-3">
         <div class="row">
-          <div class="apr-2 col-12 col-md-6 col-lg-6 me-auto">
+          <div class="apr-2 col-12 col-md-6 col-lg-6 me-auto order-2 order-md-1 my-4">
             <h1>Chats for your distributed teams</h1>
             <p>
               Team combines the immediacy of real-time chat with an email threading model. With Team, you can catch up on important conversations
@@ -132,11 +141,13 @@
             </p>
             <a href="#">Learn more &rarr;</a>
           </div>
-          <div class="col-12 col-md-6 col-lg-6">
+          <div class="col-12 col-md-6 col-lg-6 order-1 order-md-2 px-0">
             <div class="koliazas">
               <img class="kol-3-1" src="/atsiskaitymas/photos/Sec-3-1.jpeg" alt="" />
-              <img class="kol-3-2" src="/atsiskaitymas/photos/Sec-3-2.png" alt="" />
-              <img class="kol-3-3" src="/atsiskaitymas/photos/Sec-3-3.png" alt="" />
+              <div class="koliazas-2">
+                <img class="kol-3-2" src="/atsiskaitymas/photos/Sec-3-2.png" alt="" />
+                <img class="kol-3-3" src="/atsiskaitymas/photos/Sec-3-3.png" alt="" />
+              </div>
             </div>
           </div>
         </div>
@@ -147,14 +158,16 @@
     <div class="container-fluid cont-f-sec-4">
       <div class="container cont-sec-4">
         <div class="row">
-          <div class="col-12 col-md-6 col-lg-6">
+          <div class="col-12 col-md-6 col-lg-6 px-0">
             <div class="koliazas">
               <img class="kol-4-1" src="/atsiskaitymas/photos/Sec-4-1.jpeg" alt="" />
-              <img class="kol-4-2" src="/atsiskaitymas/photos/Sec-4-2.png" alt="" />
-              <img class="kol-4-3" src="/atsiskaitymas/photos/Sec-4-3.png" alt="" />
+              <div class="koliazas-3">
+                <img class="kol-4-2" src="/atsiskaitymas/photos/Sec-4-2.png" alt="" />
+                <img class="kol-4-3" src="/atsiskaitymas/photos/Sec-4-3.png" alt="" />
+              </div>
             </div>
           </div>
-          <div class="apr-2 col-12 col-md-6 col-lg-6 ms-auto">
+          <div class="apr-2 col-12 col-md-6 col-lg-6 ms-lg-auto my-4">
             <h1>Chats for your distributed teams</h1>
             <p>
               Team combines the immediacy of real-time chat with an email threading model. With Team, you can catch up on important conversations
@@ -248,9 +261,9 @@
               eget egestas. Etiam quis.
             </p>
             <div class="darbuotojas d-flex">
-              <img src="/atsiskaitymas/photos/Sec-5-1.png" alt="" />
+              <img src="/atsiskaitymas/photos/Sec-5-2.png" alt="" />
               <div class="vardas-pareigos">
-                <h3>Chealsea Morgan</h3>
+                <h3>Nick Cave</h3>
                 <p class="mazas">CEO ot Subway</p>
               </div>
             </div>
@@ -305,11 +318,11 @@
     <div class="container-fluid cont-f-sec-f">
       <div class="container cont-sec-f">
         <div class="row">
-          <div class="col-12 col-md-12 col-lg-3">
+          <div class="col-12 col-md-12 order-1 col-lg-3">
             <h5>team<span>.</span></h5>
             <p class="mazas">Collaboration platform for mordern team</p>
           </div>
-          <div class="col-12 col-md-4 col-lg-2">
+          <div class="col-12 col-md-4 col-lg-2 order-3">
             <h3>Company</h3>
             <ul>
               <li><a href="#">Product</a></li>
@@ -317,7 +330,7 @@
               <li><a href="#">Support</a></li>
             </ul>
           </div>
-          <div class="col-12 col-md-4 col-lg-2">
+          <div class="col-12 col-md-4 col-lg-2 order-3">
             <h3>Features</h3>
             <ul>
               <li><a href="#">Screen Sharing</a></li>
@@ -326,7 +339,7 @@
               <li><a href="#">User Managment</a></li>
             </ul>
           </div>
-          <div class="col-12 col-md-4 col-lg-2">
+          <div class="col-12 col-md-4 col-lg-2 order-3">
             <h3>Contact Us</h3>
             <ul>
               <li><a href="info@teamapp.com">info@teamapp.com</a></li>
@@ -334,12 +347,12 @@
               <li>1010 Sunset Blv.<br />Palo Alto, California</li>
             </ul>
           </div>
-          <div class="col-12 col-md-12 col-lg-3">
+          <div class="col-12 col-md-12 col-lg-3 order-2 order-md-last">
             <h3>Stay up to date</h3>
             <caption>
               Subscribe to our newseller
             </caption>
-            <form action="">
+            <form class="email-forma" action="">
               <input class="inputas" type="email" placeholder="Enter your email" />
               <button type="submit">
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
