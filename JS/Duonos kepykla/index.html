@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/JS/Duonos kepykla/style.css">
+</head>
+<body>
+    <form id="duomenys" action="">
+        <label for="darbo_valandos">Kepyklos darbo valandos per diena</label>
+        <input type="number" id="darbo_valandos" name="darbo_valandos" min="1" max="24" value="8">
+        <label for="kep_per_val">Vieno darbuotojo iskepama kealu per valanda</label>
+        <input type="number" id="kep_per_val" name="kep_per_val" min="1" max="100" value="10">
+        <label for="darbuotoju_skaicius">Darbuotoju skaicius</label>
+        <input type="number" id="darbuotoju_skaicius" name="darbuotoju_skaicius" min="1" max="100" value="5">
+        <label for="kepalo_savikaina">Kepalo savikaina</label>
+        <input type="number" id="kepalo_savikaina" name="kepalo_savikaina" min="1" max="100" value="1">
+        <label for="kepalo_kaina">Parduodamo kepalo kaina</label>
+        <input type="number" id="kepalo_kaina" name="kepalo_kaina" min="1" max="100" value="2">
+        <label for="dienos_kiekis">Uzsakymas per diena</label>
+        <input type="number" id="dienos_kiekis" name="dienos_kiekis" min="1" max="100" value="100">
+        <button type="button" onclick="pateikti_duomenis()">Skaiciuoti</button>
+    </form>
+    <div id="rezultatas">
+        <h1>Rezultatas</h1>
+        <h3 id="uzsakymo_bukle"></h3>
+        <h4 id="pajamos"></h4>
+        <h4 id="pelnas"></h4>
+    </div>
+
+    
+
+    <script src="/JS/Duonos kepykla/javasc.js"></script>
+</body>
+</html>
