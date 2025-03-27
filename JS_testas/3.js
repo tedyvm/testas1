@@ -2,6 +2,10 @@ document.getElementById("mygtukas").addEventListener("click", function () {
   console.log("Mygtukas paspaustas!");
   const ugis = document.getElementById("ugis").value;
   const svoris = document.getElementById("svoris").value;
+  if (ugis === "" || svoris === "") {
+    alert("Užpildykite visus laukus");
+    return
+  }
   const kmi = svoris / (((ugis / 100) * ugis) / 100);
   let isvada = "";
   console.log(kmi);

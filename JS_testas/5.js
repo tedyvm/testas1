@@ -1,29 +1,31 @@
 document.getElementById("mygtukas").addEventListener("click", function () {
   console.log("Mygtukas paspaustas!");
-  const tempF = document.getElementById("tempF").value;
-  const tempC = document.getElementById("tempC").value;
-  if (tempF === "" && tempC === "") {
+  const tempFrez = document.getElementById("tempF").value;
+  const tempCrez = document.getElementById("tempC").value;
+  if (tempFrez === "" && tempCrez === "") {
     alert("Įveskite temperatūrą!");
     return;
   }
-  if (tempF !== "" && tempC !== "") {
-    alert("Įveskite tik vieną temperatūrą!");
+  if (tempFrez !== "") {
+    const tempCrez = (tempFrez - 32) * (5 / 9);
+    document.querySelector("#tempC").value = tempCrez.toFixed(2);
     return;
   }
-  if (tempF !== "") {
-    const tempC = (tempF - 32) * (5 / 9);
-    document.querySelector(".atsakymas").innerHTML = `
-      <h1>Temperatūra Farenheito laipsniais: ${tempF}°F</h1>
-      <h2>Temperatūra Celsijaus laipsniais: ${tempC.toFixed(2)}°C</h2>
-      `;
-    return;
-  }
-  if (tempC !== "") {
-    const tempF = tempC * (9 / 5) + 32;
-    document.querySelector(".atsakymas").innerHTML = `
-      <h1>Temperatūra Celsijaus laipsniais: ${tempC}°C</h1>
-      <h2>Temperatūra Farenheito laipsniais: ${tempF.toFixed(2)}°F</h2>
-      `;
+  if (tempCrez !== "") {
+    const tempFrez = tempCrez * (9 / 5) + 32;
+    document.querySelector("#tempF").value = tempFrez.toFixed(2);
     return;
   }
 });
+document.getElementById("tempF").addEventListener("click", function () {
+  isvalyti();
+}
+);
+document.getElementById("tempC").addEventListener("click", function () {
+  isvalyti();
+}
+);
+function isvalyti() {
+  document.querySelector("#tempF").value = "";
+  document.querySelector("#tempC").value = "";
+}

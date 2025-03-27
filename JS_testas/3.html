@@ -5,11 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-
+        .ivestis {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 100px;
+        }
+        .atsakymas {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 20px;
+        }
+        #ugis, #svoris {
+            margin-bottom: 10px;
+        }
+        #mygtukas {
+            padding: 10px;
+            background-color: green;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
     <div class="ivestis">
+        <h1>Iveskite ugi centimetrais ir svori kilogramais</h1>
         <input type="number" id="ugis" placeholder="Iveskite ugi centimetrais">
         <input type="number" id="svoris" placeholder="Iveskite svori kilogramais">
         <button type="button" id="mygtukas">Patvirtinti</button>
