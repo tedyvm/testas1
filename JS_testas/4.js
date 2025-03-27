@@ -1,6 +1,10 @@
 document.getElementById("mygtukas").addEventListener("click", function () {
     console.log("Mygtukas paspaustas!");
-    const amzius = document.getElementById("amzius").value;
+  const amzius = document.getElementById("amzius").value;
+    if (amzius === "") {
+      alert("Iveskite amziu");
+      return
+    }
     const amziusD = amzius * 365;
     const amziusH = amziusD * 24;
     const amziusM = amziusH * 60;
