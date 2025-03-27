@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Range Input with Displayed Value</title>
+    <style>
+        /* Bendra stiliaus dalis */
+        input[type="range"] {
+            width: 100%; /* Užima visą pločio erdvę */
+            height: 8px; /* Slankiklio aukštis */
+            -webkit-appearance: none; /* Pašalina numatytąjį stilių Chrome ir Safari naršyklėse */
+            background: #ddd; /* Pagrindinis fonas */
+            border-radius: 5px;
+            outline: none;
+            margin-top: 10px; /* Atstumas nuo reikšmės */
+        }
+
+        /* Slankiklio takas (kur jis juda) */
+        input[type="range"]::-webkit-slider-runnable-track {
+            height: 8px;
+            background: #4caf50; /* Žalioji juosta */
+            border-radius: 5px;
+        }
+
+        input[type="range"]::-moz-range-track {
+            height: 8px;
+            background: #4caf50;
+            border-radius: 5px;
+        }
+
+        /* Slankiklio rankenėlė */
+        input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none; /* Pašalina numatytąjį dizainą */
+            appearance: none;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%; /* Apvalus rankenėlė */
+            background: #4caf50; /* Rankenėlės spalva */
+            border: none;
+            cursor: pointer;
+        }
+
+        input[type="range"]::-moz-range-thumb {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            background: #4caf50;
+            border: none;
+            cursor: pointer;
+        }
+
+        /* Slankiklio rankenėlė, kai užvedama pelės rodyklė */
+        input[type="range"]:hover::-webkit-slider-thumb {
+            background: #45a049; /* Šiek tiek tamsesnė žalioji spalva */
+        }
+
+        input[type="range"]:hover::-moz-range-thumb {
+            background: #45a049;
+        }
+
+        /* Vertės rodyti stilius virš slankiklio */
+        .range-value {
+            font-size: 16px;
+            font-weight: bold;
+            color: #333;
+            position: absolute;
+            top: -30px;
+            transform: translateX(-50%); /* Išlygina vertę į vidurį */
+        }
+
+        /* Indikatorius po slankikliu */
+        .slider-container {
+            position: relative;
+            width: 100%;
+            max-width: 400px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Range Input with Displayed Value</h2>
+    <div class="slider-container">
+        <input type="range" min="1" max="100" value="50" id="myRange">
+        <div class="range-value" id="rangeValue">50</div>
+    </div>
+
+    <script>
+        const rangeInput = document.getElementById('myRange');
+        const rangeValue = document.getElementById('rangeValue');
+
+        // Atnaujiname reikšmę pagal slankiklį
+        rangeInput.oninput = function() {
+            rangeValue.textContent = rangeInput.value; // Keičiasi reikšmė
+
+            // Apskaičiuojame slankiklio poziciją
+            const position = (rangeInput.value - rangeInput.min) / (rangeInput.max - rangeInput.min) * 100;
+            
+            // Išlyginkite reikšmę virš slankiklio (pridedame % ir atstumo pakeitimus)
+            rangeValue.style.left = `calc(${position}% - 20px)`; // 20px atstumas dėl rankenėlės dydžio
+        };
+
+        // Inicializuojame pradinę reikšmę ir poziciją
+        rangeValue.textContent = rangeInput.value;
+        const initialPosition = (rangeInput.value - rangeInput.min) / (rangeInput.max - rangeInput.min) * 100;
+        rangeValue.style.left = `calc(${initialPosition}% - 20px)`;
+    </script>
+</body>
+</html>

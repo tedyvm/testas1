@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: url("clouds.jpeg");
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #333333ed;
+      }
+      h1 {
+        text-align: center;
+        margin-top: 10px;
+      }
+      .container{
+        background-color: rgba(211, 211, 211, 0.842);
+        max-width: 350px;
+        margin: 0 auto;
+        padding: 20px;
+        border-radius: 20px;
+        margin-top: 20px;
+      }
+      .search {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+      }
+      input {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 200px;
+      }
+      button {
+        padding: 10px 20px;
+        border: none;
+        background-color: #333;
+        color: #fff;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #444;
+      }
+      button:active {
+        background-color: #555;
+      }
+      .oras {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+      }
+
+      .oras img {
+        width: 100px;
+        height: 100px;
+      }
+      p span {
+        font-weight: bold;
+        font-size: 35px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Oru prognoze</h1>
+      <form action="" class="search">
+        <input type="text" id="city" name="city" placeholder="Miestas" />
+        <button type="submit">Ieskoti</button>
+      </form>
+      <div class="oras"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="getData.js"></script>
+    <script src="getPhoto.js"></script>
+  </body>
+</html>
