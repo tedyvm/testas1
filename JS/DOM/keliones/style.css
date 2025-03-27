@@ -1,0 +1,12 @@
+.kortele {
+    max-width: 222px;
+    min-height: 345px;
+    border: 1px solid rgba(128, 128, 128, 0.43);
+border-radius: 5px;
+padding: 15px;
+}
+.korteles{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}

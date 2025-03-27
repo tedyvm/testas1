@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Portfolio</h1>
+      <h2>Igyvendtinti projektai</h2>
+      <select name="" id="options">
+      </select>
+      <button type="button" onclick="loadProjects(`projects/latest/`)">parodyti naujausius</button>
+      <div class="projektai"></div>
+      <h2>Darbo patirtis</h2>
+      <button type="button" onclick="loadExp(`work-experience/latest/`)">parodyti naujausius</button>
+      <div class="patirtis"></div>
+      <h2>Issilavinimas</h2>
+      <button type="button" onclick="loadEdu(`education/latest/`)">parodyti naujausius</button>
+
+      <div class="issilavinimas"></div>
+      <h2>Pabaigti kursai</h2>
+      <select name="" id="options-kurs">
+    </select>
+      <button type="button" onclick="loadKurs(`courses/latest/`)">parodyti naujausius</button>
+
+      <div class="kursai"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

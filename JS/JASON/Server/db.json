@@ -1,0 +1,61 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Pirmas strasaipsnis",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, quae. Consequatur, tenetur pariatur. Dolor numquam similique magni ab laudantium distinctio saepe blanditiis ad iste suscipit ut cumque laborum molestiae consectetur, ipsa aliquid, sequi et mollitia. Distinctio cumque dignissimos optio illum exercitationem sit provident libero animi deleniti, reprehenderit sint. Molestias, facere?",
+      "likes": 100
+    },
+    {
+      "id": "3",
+      "title": "Treciasss straipsnis",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, quae. Consequatur, tenetur pariatur. Dolor numquam similique magni ab laudantium distinctio saepe blanditiis ad iste suscipit ut cumque laborum molestiae consectetur, ipsa aliquid, sequi et mollitia. Distinctio cumque dignissimos optio illum exercitationem sit provident libero animi deleniti, reprehenderit sint. Molestias, facere?",
+      "likes": 286
+    },
+    {
+      "id": "4",
+      "title": "Ketvirtas straipsnis",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, quae. Consequatur, tenetur pariatur. Dolor numquam similique magni ab laudantium distinctio saepe blanditiis ad iste suscipit ut cumque laborum molestiae consectetur, ipsa aliquid, sequi et mollitia. Distinctio cumque dignissimos optio illum exercitationem sit provident libero animi deleniti, reprehenderit sint. Molestias, facere?",
+      "likes": 936
+    },
+    {
+      "id": "0315",
+      "title": "assad",
+      "content": "asdasdddsasdasd",
+      "likes": 0
+    },
+    {
+      "id": "cd25",
+      "title": "Antras straipsnis",
+      "content": "asdasd sd asd asdas das dasd d asdasd asda dsadasd ada dasd asd asgewg dsfg rth rsbhrthserg strgh rth ",
+      "likes": 0
+    },
+    {
+      "id": "b2e7",
+      "title": "op[uiop[",
+      "content": "uiop[iop[iop[",
+      "likes": 0
+    },
+    {
+      "id": "3180",
+      "title": "kljk",
+      "content": "jkl;jkl;jkl;",
+      "likes": 0
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
