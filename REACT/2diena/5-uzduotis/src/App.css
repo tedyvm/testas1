@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+}
+.kursai, .salys, .straipsniai{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.kursas, .salis, .straipsnis, .filmas{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+width: 20%;
+}
