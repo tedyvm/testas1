@@ -4,10 +4,7 @@
   padding: 2rem;
   text-align: center;
 }
-#scrolinimas{
-  height: 150px;
-  overflow: scroll;
-}
+
 .logo {
   height: 6em;
   padding: 1.5em;
