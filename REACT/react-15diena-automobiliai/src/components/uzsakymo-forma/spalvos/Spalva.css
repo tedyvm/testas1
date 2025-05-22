@@ -1,0 +1,17 @@
+.card .options.colors {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card .options.colors .option {
+  width: calc(50% - 22px);
+  display: flex;
+  align-items: center;
+}
+
+.card .options.colors .option .color {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}

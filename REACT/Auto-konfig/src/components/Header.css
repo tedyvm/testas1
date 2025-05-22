@@ -1,0 +1,34 @@
+.header {
+  width: 100%;
+  background-image: url(../assets/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-family: "Inter";
+  line-height: 100%;
+;
+}
+/* .header::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(96, 96, 96, 0.3); 
+  z-index: 1; } */
+
+.header div {
+  max-width: 1320px;
+  margin: auto;
+  padding: 20px 0;
+
+}
+.header h1 {
+  
+  font-weight: 700;
+  font-size: 96px;
+}
+.header h2 {
+  font-weight: 600;
+  font-size: 48px;}

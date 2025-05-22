@@ -1,0 +1,22 @@
+.thankyou {
+  color: #000000;
+  text-align: center;
+}
+
+.thankyou lottie-player {
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+}
+
+.thankyou h3 {
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 100%;
+}
+
+.thankyou p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+}

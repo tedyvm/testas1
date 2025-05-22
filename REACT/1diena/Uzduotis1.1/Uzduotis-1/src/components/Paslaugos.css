@@ -1,0 +1,39 @@
+.paslaugos {
+  background-color: antiquewhite;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+h2 {
+  background-color: rgb(253, 229, 196);
+  text-align: center;
+  font-size: 24px;
+  margin: 0;
+  padding: 30px;
+}
+.paslauga{
+  background-color: rgb(253, 229, 196);
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.paslauga button{
+  background-color: rgb(255, 149, 2);
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  width: 90%;
+  cursor: pointer;
+  margin: 20px;
+}
+.paslauga h3{
+  font-size: 20px;
+  margin: 0;
+  color: rgb(107, 62, 0);
+}

@@ -1,0 +1,15 @@
+h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 32px;
+  letter-spacing: 0px;
+}
+.container {
+  width: 100%;
+  max-width: 1320px;
+}
+.krepselis {
+  background-color: white;
+  padding: 48px;
+  border-radius: 8px;
+}

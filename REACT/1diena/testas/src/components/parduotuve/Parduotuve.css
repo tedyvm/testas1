@@ -1,0 +1,21 @@
+.prekiu-sarasas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.preke {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  text-align: center;
+}
+.preke img {
+  max-width: 100%;
+  height: auto;
+}
+.preke h3 {
+  font-size: 1.2em;
+  margin: 10px 0;
+}

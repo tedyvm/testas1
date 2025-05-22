@@ -1,0 +1,26 @@
+.container
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.left
+{
+    width: 50%;
+    float: left;
+    height: 100%;
+    background-image: url(./assets/parsas.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.right
+{
+    width: 50%;
+    float: right;
+    height: 100%;
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+
+}
