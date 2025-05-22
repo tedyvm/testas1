@@ -1,0 +1,13 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: #e5d4fb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

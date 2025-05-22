@@ -1,0 +1,82 @@
+.container .config .paketai {
+  width: 40%;
+  box-shadow: 2px 3px 11.6px 0px #0000001a;
+  padding: 32px;
+}
+.container .config .variklis {
+  width: 40%;
+  box-shadow: 2px 3px 11.6px 0px #0000001a;
+  padding: 32px;
+}
+.container .config .priedai {
+  width: 60%;
+  box-shadow: 2px 3px 11.6px 0px #0000001a;
+  padding: 32px;
+}
+.container .config .spalvos{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+.container .config .salonas {
+  height: calc(394px - 32px - 32px);
+}
+.container .config .spalvosd{
+  width: 60%;
+}
+.container .config .spalva .spalvosIcon
+{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+.container .config .paketas {
+  border: 1px solid #d9d9d9;
+  border-radius: 10px;
+  padding: 16px;
+  margin-top: 8px;
+  cursor: pointer;
+}
+.container .config .spalva{
+  width: calc(50% - 40px);
+  display: flex;
+}
+.container .config .paketas:hover {
+  background: #189AF80D;
+}
+
+.container .config h3 {
+  margin: 0;
+  margin-bottom: 20px;
+  padding: 0;
+  font-weight: 800;
+  font-size: 24px;
+}
+.container .config .paketas h4 {
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  font-size: 20px;
+}
+.container .config .paketas p {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 18px;
+  color: #999999;
+  margin-top: 8px;
+}
+.container .config .pasirinktas {
+  border: 1px solid #189af8;
+  background: #189AF80D;
+}
+.container .config .priedas, .container .config .paketas{
+  position: relative;
+}
+.container .config svg{
+  position: absolute;
+  right: 16px;
+  top: 16px;
+}

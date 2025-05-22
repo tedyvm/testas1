@@ -1,0 +1,167 @@
+.container {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.configurator {
+  background: white;
+  padding: 56px 56px 30px 56px;
+}
+
+section {
+  margin-bottom: 25px;
+}
+
+section.first,
+section.second,
+section.third {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+section.third {
+  height: 100%;
+}
+
+section.first img {
+  width: 100%;
+}
+
+section.first > div:first-child,
+section.second > div:first-child {
+  width: 60%;
+}
+
+section.third > div:first-child {
+  width: 40%;
+}
+
+section.first > div:last-child,
+section.second > div:last-child {
+  width: 40%;
+}
+
+section.third > div:last-child {
+  width: 60%;
+}
+
+.card {
+  padding: 16px;
+  width: calc(100% - 32px);
+
+  background: #ffffff;
+  box-shadow: 2px 3px 11.6px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  height: calc(100% - 32px);
+}
+
+.card h2 {
+  margin: 0;
+
+  font-weight: 800;
+  font-size: 14px;
+
+  color: #222222;
+}
+
+.card .options {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  width: 100%;
+  margin-top: 14px;
+}
+
+.card .options .option {
+  padding: 8px;
+  gap: 8px;
+
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 8px;
+  width: calc(100% - 16px);
+  cursor: pointer;
+  position: relative;
+}
+
+.card .options .option .title {
+  font-weight: 600;
+  font-size: 12px;
+
+  color: #222222;
+}
+
+.card .options .option .price {
+  margin-top: 5px;
+  font-weight: 400;
+  font-size: 10px;
+
+  color: #999999;
+}
+
+.card .options .option svg {
+  display: none;
+}
+
+.card .options .option.selected svg {
+  display: block;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+
+.card .options .option:hover {
+  background: #189af80d;
+  box-shadow: 0px 0px 0px 2px #189af8;
+  border-color: transparent;
+}
+
+.card .options .option.selected {
+  background: #189af80d;
+  box-shadow: 0px 0px 0px 2px #189af8;
+  border-color: transparent;
+}
+
+hr {
+  background: #ededed;
+  width: 100%;
+  height: 2px;
+  border: 0;
+}
+
+.footer {
+  font-weight: 700;
+  font-size: 14px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  color: #222222;
+  margin-top: 20px;
+}
+
+.footer > div:first-child span {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.footer > div:last-child button {
+  cursor: pointer;
+  padding: 10px 16px;
+  background: #2b9cee;
+  border: 0;
+  font-weight: 600;
+  font-size: 12px;
+
+  color: #ffffff;
+  transition: all 0.3s;
+}
+
+.footer > div:last-child button:hover {
+  background: #3c79a5;
+}

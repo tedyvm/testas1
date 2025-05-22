@@ -1,0 +1,26 @@
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("./src/assets/header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 35px 0;
+}
+
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 150%;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 32px;
+}

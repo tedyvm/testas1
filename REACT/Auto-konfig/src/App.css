@@ -1,0 +1,45 @@
+.container {
+  max-width: 1320px;
+  margin: auto;
+  background-color: white;
+}
+.container .config {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+.container .config img {
+  width: 60%;
+  padding: 32px;
+}
+hr {
+  border: 2px solid #ededed;
+  margin: 12px 20px;
+}
+.suma {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
+}
+.suma button {
+  background-color: #2b9cee;
+  color: white;
+  border: none;
+  height: 50px;
+  width: 113px;
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 18px;
+}
+.padeka {
+  text-align: center;
+  padding: 230px 32px;
+}
+.padeka lottie-player {
+  margin: 0 auto;
+  width: 200px;
+  height: 200px;
+}
